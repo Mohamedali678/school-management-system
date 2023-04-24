@@ -2,6 +2,7 @@ import { useState } from "react";
 import SideNav from "./SideNav";
 
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 
 
 function StudentForm(){
@@ -12,6 +13,9 @@ function StudentForm(){
     const [address, setAddress] = useState("");
     const [guardian, setGuardian] = useState("");
     const [number, setNumber] = useState("");
+
+
+    const navigate = useNavigate();
 
 
     const saveData = async (event) => {
@@ -31,6 +35,9 @@ function StudentForm(){
         }).catch((error) => {
             console.log(error);
         })
+
+        navigate("/students")
+        
     }
     
     return <div>

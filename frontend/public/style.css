@@ -38,3 +38,15 @@ li:hover{
     margin-left: 21%;
     height: 100vh;
 }
+
+.row1 {
+    margin: 12px;
+  
+    display: grid;
+    grid-template-columns: 200px 300px;
+    justify-content: space-between;
+}
+
+.box1 input {
+    border: 4px solid cadetblue;
+}
