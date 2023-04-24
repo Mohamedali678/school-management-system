@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+}
+
+.sidenav {
+    position: fixed;
+    width: 20%;
+    height: 100vh;
+    color: white;
+    background-color: #071B63;
+}
+
+ul {
+    padding: 30px;
+}
+
+ul li {
+    margin-top: 30px;
+    font-size: 22px;
+    list-style: none;
+}
+
+
+li:hover{
+    padding: 6px 12px;
+    border-radius: 4px;
+    color: black;
+    background-color: lightblue;
+}
+
+.logo {
+    font-size: 4em;
+    padding-left: 30px;
+    border-bottom: 1px solid lightblue;
+}
+
+.main {
+    margin-left: 21%;
+    height: 100vh;
+}
